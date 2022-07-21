@@ -1,0 +1,68 @@
+INTRODUCTION TO COMMAND LINE TOOL FOR 
+NETWORKING
+NETWORK COMMANDS
+The operating system consists of various built-in, command-line networking utilities 
+that are used
+for network troubleshooting.
+1. Ping
+2. Hostname
+3.netstat
+4. If Config
+5. Nslookup
+6. Traceroute
+7.Route
+8.IP Config
+
+PING
+PACKET INTERNET GROPER
+Most widely used utility tool to troubleshootIt sends packets of information to the userdefined source. If the packets are received , thedestination device sends packets 
+back.Ping can be used for two purposesNetwork connection can be established,Speed of 
+the connectionPing is used to testing a network host capacity to interact with another 
+host. Just enter the command.Ping, followed by the target host’s name or IP address.
+
+HOSTNAME
+Hostname :displays the machine hostname
+Hostname –f :displays the fully qualified host and domain name
+Hostname –I :displays the ip address for the current machine
+
+netstat
+Netstat command displays various network related information such as network
+connections, routing tables, interface statistics, multicast memberships etc.
+netstat -a : To show both listening and non-listening sockets
+netstat -at : To list all tcp ports.
+netstat -au : To list all udp ports.
+netstat -l : To list only the listening ports.
+netstat -lt : To list only the listening tcp ports
+netstat -lu : To list only the listening udp ports.
+netstat -lx : To list only the listening UNIX ports.
+netstat -s : To list the statistics for all ports
+
+If config
+The if config commands is used for displaying current network configuration 
+information ,setting up an ip address , netmask or broadcast address to an network 
+interface , creatingan alias for network interface , setting up hardware address and 
+enable or disable network interface
+ifconfig –a :This option is used to display all the interfaces available, even if they are 
+down.
+ifconfig -s : Display a short list, instead of details
+ifconfig interface up :This option is used to activate the driver for the given interface
+ifconfig interface down :This option is used to deactivate the driver for the given 
+interface.
+
+Nslookup
+Nslookup (stands for “Name Server Lookup”) is a useful command for getting 
+informationfrom DNS server. It is a network administration tool for querying the 
+Domain NameSystem (DNS) to obtain domain name or IP address mapping or any 
+other specific DNSrecord. It is also used to troubleshoot DNS related problems.
+
+Traceroute
+Traceroute command prints the route that a packet takes to reach the host. This 
+command is useful when we want to know about the route and about all the hops that a 
+packet takes.
+
+Route
+Route command in Linux is used when you want to work with the IP/kernel routing 
+table. It
+is mainly used to set up static routes to specific hosts or networks via an interface. It is
+used for showing or update the IP/kernel routing table.Install net-tools by $sudo apt-get 
+install net-tools.
