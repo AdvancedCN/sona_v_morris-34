@@ -1,0 +1,17 @@
+ Study On Command Line Text Editors
+Study of a terminal based text editor such as Vim or Emacs. (By the end of the 
+course, students are expected to acquire following skills in using the editor: cursor 
+operations, manipulate text, search for patterns, global search and replace) Basic Linux 
+commands, familiarity with following commands/operations expected 
+ 1. man
+ 2. ls, echo, read 
+ 3. more, less, cat, 
+ 4. cd, mkdir, pwd, find 
+ 5. mv, cp, rm ,tar 
+ 6. wc, cut, paste 
+ 7. head, tail, grep, expr
+ 8 chmod, chown
+ 9. Redirections & Piping 
+ 10. useradd, usermod, userdel, passwd
+ 11. df,top, ps
+12 ssh, scp, ssh-keygen, ssh-copy-id
