@@ -7,3 +7,9 @@ for var in “$@”
  do
 echo “$var”
 Done
+
+for var in $*
+do
+echo “$var”
+Done
+
